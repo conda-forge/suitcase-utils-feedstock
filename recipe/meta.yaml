@@ -11,16 +11,16 @@ source:
   sha256: dfef82994c3e73b6cbd59d249a0c66afe056246956cfb1e931db4ca99631c6b7
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
+    - python >=3.6
     - pip
-    - python
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -40,3 +40,4 @@ about:
 extra:
   recipe-maintainers:
     - CJ-Wright
+    - mrakitin
