@@ -1,13 +1,17 @@
 About suitcase-utils
 ====================
 
-Home: https://pypi.org/project/suitcase-utils/
+Home: https://pypi.org/project/suitcase-utils
 
 Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/suitcase-utils-feedstock/blob/master/LICENSE.txt)
 
 Summary: This is a package of utility functions and test fixtures for suitcase packages.
+
+Development: https://github.com/bluesky/suitcase-utils
+
+Documentation: https://blueskyproject.io/suitcase
 
 Current build status
 ====================
